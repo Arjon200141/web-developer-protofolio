@@ -8,6 +8,8 @@ h2{
 nav{
     display: flex;
     margin-right: 20px;
+    justify-content: space-between;
+    text-align: center;
 }
 nav>ul>li{ 
     list-style: none;
@@ -24,6 +26,7 @@ nav>ul>li{
 }
 nav>ul{
     display: flex;
+    align-items: center;
 }
 nav a{
     text-decoration: none;
@@ -33,4 +36,9 @@ nav a{
     border-radius: 5px;
     background: #FD6E0A;
     text-align: center;
+    border: 0;
+    font-size:  20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    color: white;
 }
