@@ -10,6 +10,10 @@ nav{
     margin-right: 20px;
     justify-content: space-between;
     text-align: center;
+    margin: 0 200px;
+}
+header{
+    background-color: #FFF8F3;
 }
 nav>ul>li{ 
     list-style: none;
@@ -41,4 +45,13 @@ nav a{
     font-weight: 700;
     padding: 15px 35px;
     color: white;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+
 }
